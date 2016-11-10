@@ -1,0 +1,15 @@
+{
+    "name": "patientaccess.waynelloyd",
+    "description": "Webapp for PatientAccess",
+    "architecture": "all",
+    "title": "PatientAccess",
+    "hooks": {
+        "PatientAccess": {
+            "apparmor": "PatientAccess.apparmor",
+            "desktop": "PatientAccess.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "waynelloyd <wayne.lloyd@outlook.com>",
+    "framework": "ubuntu-sdk-14.10"
+}
