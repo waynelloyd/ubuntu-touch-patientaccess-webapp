@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Patient Access
+Comment=Webapp for patient.emisaccess.co.uk
+Type=Application
+Icon=PatientAccess.png
+Exec=webapp-container --store-session-cookies --maximized --webappUrlPatterns=https?://patient.emisaccess.co.uk/* https://patient.emisaccess.co.uk/
+Terminal=false
+X-Ubuntu-Touch=true
+
+Name[en_GB]=PatientAccess
